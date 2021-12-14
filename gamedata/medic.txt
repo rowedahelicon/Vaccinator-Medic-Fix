@@ -1,0 +1,24 @@
+"Games"
+{
+	"tf"
+	{
+        "Functions"
+		{
+			"CTFPlayerShared::SetChargeEffect"
+			{
+				"signature" "CTFPlayerShared::SetChargeEffect"
+				"callconv" "thiscall"
+				"return" "bool"
+				"this" "address"
+			}
+		}
+		"Signatures"
+		{
+			"CTFPlayerShared::SetChargeEffect"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared15SetChargeEffectE20medigun_charge_typesbbRK16MedigunEffects_tfP9CTFPlayer"
+			}
+        }
+    }
+}
