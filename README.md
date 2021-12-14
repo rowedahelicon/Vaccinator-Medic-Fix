@@ -7,6 +7,6 @@ https://wiki.teamfortress.com/wiki/Vaccinator#Bugs
 
 It is caused by an oversight in `CTFPlayerShared::RecalculateChargeEffects` as well as `CWeaponMedigun::Holster >> RecalcEffectOnTarget` that forcibly resets all active uber conditions. when swapping away from a medigun, regardless of where the condition came from.
 
-*Requires DHooks*
+*Requires DHooks + Linux Server*
 
 Big thanks to Kent for poking me repeatedly until I got this done. :P
