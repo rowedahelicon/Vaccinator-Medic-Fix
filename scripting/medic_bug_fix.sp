@@ -28,8 +28,8 @@ public OnPluginStart()
 
 public MRESReturn Detour_ValidMap(Address self, Handle hReturn, Handle params)
 {
-    int mission = DHookGetParam(params, 1);
-    if( mission == 3 || mission == 4 || mission == 5 )
+    int iCharge = DHookGetParam(params, 1);
+    if( iCharge == 3 || iCharge == 4 || iCharge == 5 )
     {
         DHookSetReturn(hReturn, true);
         return MRES_Supercede;
