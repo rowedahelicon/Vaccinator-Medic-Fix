@@ -16,8 +16,10 @@
 		{
 			"CTFPlayerShared::SetChargeEffect"
 			{
+				// find string "player_invulned"; function is called twice by SetChargeEffect
 				"library"	"server"
 				"linux"		"@_ZN15CTFPlayerShared15SetChargeEffectE20medigun_charge_typesbbRK16MedigunEffects_tfP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x20\x53\x8B\x5D\x14"
 			}
         	}
     	}
