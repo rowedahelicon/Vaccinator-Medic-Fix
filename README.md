@@ -1,4 +1,4 @@
-# TF2---Vaccinator-Medic-Fix
+Vaccinator Medic Fix [SourceMod]
 Fixes a bug with losing ubers when swapping away from the Vaccinator
 
 This plugin fixes an issue with the Vaccintor that causes you to lose your active resist uber when swapping away from a vaccinator. Regardless if you are the Medic ubering, or the medic being Ubered.
